@@ -11,9 +11,9 @@ The relevant dataset can be downloaded programmatically from [here](https://s3.a
 
 # Summary of findings
 After reviewing the information available in this analysis, one could come to the following conclusions:
-    - Prosper has had an accelerating growth year-on-year (except for a slowdown in 2012). However, with the available data, we still don't know how well Prosper is doing in comparison to its competitors;
-    - Not surprisingly, on average, the larger the loan amount, larger the monthly payment. Those, on their turn, tend to coalesce into 3 clearly distinct groups, driven by the loan term;
-    - Lower income (below $50000 per year), when paired with higher levels of BorrowerAPR (above 0.25), seem to be related to higher levels of default. Given the insight above, it could be in the best interest of Prosper to develop a reliable model in predicting when this profile of customer would tend to default.
+* 1\. Prosper has had an accelerating growth year-on-year (except for a slowdown in 2012). However, with the available data, we still don't know how well Prosper is doing in comparison to its competitors;
+* 2\. Not surprisingly, on average, the larger the loan amount, larger the monthly payment. Those, on their turn, tend to coalesce into 3 clearly distinct groups, driven by the loan term;
+* 3\. Lower income (below $50000 per year), when paired with higher levels of BorrowerAPR (above 0.25), seem to be related to higher levels of default. Given the insight above, it could be in the best interest of Prosper to develop a reliable model in predicting when this profile of customer would tend to default.
 
 # Key Insights for Presentation
 First, we are going to show that Prosper has had an accelerating growth year-on-year. For that, we used two bar plots showing the total number and amount of loans granted per year-month from July 2009 up to March 2014.
