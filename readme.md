@@ -1,4 +1,4 @@
-# Project7 - Prosper Loan Data Exploration
+# Prosper Loan Data Exploration
 ## by Lucas Aledi
 
 # Dataset Overview
@@ -6,8 +6,7 @@ In this project, we have decided to analyse a dataset containing 113,937 loans w
 in-depth information such as loan amount, borrower's APR and interest-rate, as well as Prosper's rating, current loan
 status, borrower income, and many others. After some wrangling, this has been reduced to +77500 loans with 26 variables on each loan. The main features include LoanOriginalAmount, LoanStatus, IncomeRange and BorrowerAPR.
 
-The relevant dataset can be downloaded programmatically from:
-https://s3.amazonaws.com/udacity-hosted-downloads/ud651/prosperLoanData.csv
+The relevant dataset can be downloaded programmatically from [here](https://s3.amazonaws.com/udacity-hosted-downloads/ud651/prosperLoanData.csv)
 
 
 # Summary of findings
@@ -22,6 +21,7 @@ Secondly, to show the strong linear relationship between loan sizes, monthly pay
 Finally, to visualize the fact that small incomes, when combined with higher levels of BorrowerAPR, tend to lead to more defaults, we used 2 bar plots, 2 distplots and, finally, 2 scatter plots. Note that, in the last two plots, we try to visualize 4 different variables, being 2 of them numerical (LoanOriginalAmount and BorrowerAPR) and the other 2 categorical (LoanStatus and IncomeRange). That's why we've decided to split the visualization into 2 plots.
 
 
-#Credits
+# Credits
 github.com/lucasaledi
+
 udacity.com
